@@ -1,237 +1,218 @@
 ---
-title: 
-description: Vanilla OS is an Immutable Linux-based distribution which aims to provide a vanilla GNOME experience.
+layout: page
+title: Gezel.io Roadmap
+description: Roadmap for all our projects
 ---
-<div class="hero hero-center hero-main">
-    <div class="container hero-wrapper">
-        <div class="hero-image animate__animated animate__fadeIn" data-scroll>
-            <img src="/assets/images/home-laptop.svg" alt="Vanilla OS - Showcase" class="on-light" />
-            <img src="/assets/images/home-laptop-dark.svg" alt="Vanilla OS - Showcase" class="on-dark" />
-            <!-- <video class="hero-image-video-frame" autoplay loop muted playsinline>
-                <source src="/assets/videos/home-gnome-showcase.webm" type="video/webm">
-            </video> -->
-        </div>
-        <div class="hero-text">
-            <!-- <a href="{{ site.url }}/download/" class="button button-large">
-                Get Vanilla OS 22.10 <span class="material-icons-outlined"> file_download </span>
-            </a>
-            <a href="#">Release Notes</a> -->
-            <a href="https://github.com/Vanilla-OS/os/releases/latest" class="button button-large">
-                Get Vanilla OS 22.10 <span class="material-icons-outlined"> file_download </span>
-            </a>
-            <span>
-                <a href="{{ site.url }}/roadmap">Roadmap</a> | <a href="https://handbook.vanillaos.org/2022/11/05/installation.html#title1">Requirements</a>
-            </span>
-        </div>
-        <a href="#discover" class="hero-scroll">
-            What is Vanilla OS?
-            <span class="material-icons-outlined" id="discover"> arrow_downward </span>
-        </a>
-    </div>
-</div>
+## Terms
+* **Stable**: A release that is ready for production use.
+* **Closed/Open Beta**: A release that is ready for testing and feedback.
+* **Release Candidate**: A release that is proposed for the stable release.
 
-<div class="hero hero-center">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Nicely Updated.</h2>
-            <p>Designed to last over time and always be faithful to you.</p>
-            <p>Vanilla OS is an <span class="mark">immutable</span> and <span class="mark">atomic</span> Ubuntu Linux-based Point Release distribution, that receives updates at the right time, neither before nor after, without sacrificing security and functionality.</p>
+All releases are always available for download on our GitHub page, the main
+difference is the level of support and stability.
+
+## Dates
+The following dates are subject to change. Time is in `GMT+2`.
+
+<div class="timeline">
+    <div class="timeline-item timeline-grayed">
+        <span class="timeline-label">April</span>
+        <div class="timeline-item-content">
+            <h4>Lunar 23.04 initial work</h4>
+            <p>Initial works on the Lunar 23.04 release will begin.</p>
         </div>
     </div>
-</div>
-
-<div class="hero hero-feature">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Work.</h2>
-            <p>Your faithful colleague by day.</p>
-            <p>Vanilla OS is designed to be a reliable and productive operating system for your daily work. The GNOME Desktop is the perfect environment for your daily tasks, with a clean and intuitive interface, everything is at your fingertips.</p>
-            <p>Thanks to a wide range of applications, Vanilla OS is ready to meet your needs, whether you are a developer, a designer, a student or a simple user.</p>
-        </div>
-        <div class="hero-image" data-scroll>
-            <img class="animate-on-scroll" data-animation="fadeInRight" src="/assets/images/home-rnote.png" alt="Vanilla OS - Rnote!" />
+    <div class="timeline-item timeline-green">
+        <span class="timeline-label">January</span>
+        <div class="timeline-item-content">
+            <h4>Bug fixes</h4>
+            <p>Bugs reported by the community will be fixed.</p>
         </div>
     </div>
-</div>
-
-<div class="hero hero-feature hero-feature-inverted">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Play.</h2>
-            <p>Your teammate by night.</p>
-            <p>Play your favourite video games without worrying about setting up your devices. Vanilla OS offers the latest stable Linux kernel, ensuring support for the latest devices and the latest performance improvements.</p>
-            <p>Your GPU won't be an issue anymore thanks to an integrated driver management, whether it's an AMD®, Intel®, or NVIDIA® GPU. If a driver is missing, all you have to do is launch the driver manager and follow the instructions. <b>It's that simple.</b></p>
-        </div>
-        <div class="hero-image" data-scroll>
-            <img class="animate-on-scroll" data-animation="fadeInUp" src="/assets/images/home-gaming.png" alt="Vanilla OS - Gaming!" />
+    <div class="timeline-item timeline-dimmed-green">
+        <span class="timeline-label">29 December 2022</span>
+        <div class="timeline-item-content">
+            <h4>Stable</h4>
+            <p>The first stable release of Vanilla OS.</p>
         </div>
     </div>
-</div>
-
-<div class="hero hero-center hero-bg-text">
-    <div class="hero-text">
-        <div class="hero-image" data-scroll>
-            <img class="animate-on-scroll" data-animation="fadeIn" src="/assets/images/home-apps.png" alt="Vanilla OS - Apps!" />
-            <div class="hero-text">
-                <h2>Complete.</h2>
-                <p>Access a large catalogue of applications.</p>
-            </div>
+    <div class="timeline-item timeline-dimmed-green">
+        <div class="timeline-item-content"> 
+            <p>Release Candidate builds are <a href="/download">available for testing</a>.</p>
         </div>
     </div>
-</div>
-
-<div class="hero hero-feature">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Choice.</h2>
-            <p>Your system, your choices.</p>
-            <p>Vanilla OS is an operating system that respects your choices, you are in control, always.</p>
-            <p>At the first start you can choose which package format to use in Vanilla OS (Flatpak, Snap, Appimage ..), you choose and Vanilla OS will take care of the rest, putting you in the situation to start without problems.</p>
+    <div class="timeline-item timeline-dimmed-green">
+        <span class="timeline-label">28 November 2022</span>
+        <div class="timeline-item-content"> 
+            <h4>ABRoot Ready</h4>
+            <p>ABRoot is ready to be included in the next release.</p>
         </div>
-        <div class="hero-image" data-scroll>
-            <img class="animate-on-scroll" data-animation="fadeInRight" src="/assets/images/home-pkgs.png" alt="Vanilla OS - Package Managers!" />
+    </div>
+    <div class="timeline-item timeline-red">
+        <span class="timeline-label">11 November 2022</span>
+        <div class="timeline-item-content"> 
+            <h4>Slowdown #1</h4>
+            <p>We have decided to deprecate Almost for ABRoot, a new utility designed to provide a more robust and full atomic immutability model, as a result the next release will be delayed by a few weeks.</p>
+        </div>
+    </div>
+    <div class="timeline-item timeline-dimmed-green">
+        <span class="timeline-label">24 October 2022</span>
+        <div class="timeline-item-content"> 
+            <h4>Open Beta</h4>
+            <p>The first open beta of Vanilla OS.</p>
+        </div>
+    </div>
+    <div class="timeline-item timeline-dimmed-green">
+        <span class="timeline-label">09 October 2022</span>
+        <div class="timeline-item-content">
+            <h4>Closed Beta 2</h4>
+            <p>The second Closed Beta stage of Vanilla OS begins.</p>
+        </div>
+    </div>
+    <div class="timeline-item timeline-dimmed-green">
+        <span class="timeline-label">01 October 2022</span>
+        <div class="timeline-item-content">
+            <h4>Closed Beta 1</h4>
+            <p>The first Closed Beta stage of Vanilla OS begins.</p>
+        </div>
+    </div>
+    <div class="timeline-item timeline-dimmed-green">
+        <span class="timeline-label">24 September 2022</span>
+        <div class="timeline-item-content">
+            <h4>Alpha</h4>
+            <p>First Alpha release of Vanilla OS.</p>
         </div>
     </div>
 </div>
 
-<div class="hero hero-feature hero-feature-inverted">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Immutable..</h2>
-            <p>..but also not.</p>
-            <p>Vanilla OS is an immutable operating system, core parts of the system are locked down to prevent unwanted changes and corruption from third-party applications or a faulty update. Some paths are still writable, such as the home and configurations directories, this allows the user to keep their files and ensure the normal functioning of applications.</p>
-            <p>Core components are only updated via controlled and atomic transactions, which are applied only on success and made available on reboot.</p>
-            <p>Need to install a component in the core system? No problem, you can open a transactional shell at any time, make your changes and let the system apply them automatically!</p>
-            <a href="https://documentation.vanillaos.org/" class="button button-secondary">
-                Learn More <span class="material-icons-outlined">chevron_right</span>
-            </a>
-        </div>
-        <div class="hero-image" data-scroll>
-            <img class="animate-on-scroll" data-animation="fadeInLeft" src="/assets/images/home-desk-apx.svg" alt="Vanilla OS - Immutable!" />
-        </div>
-    </div>
-</div>
+<br />
 
-<div class="hero hero-center">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Free & Open Source.</h2>
-            <p>You don't have to and you will never have to pay.</p>
-            <p>Vanilla OS is built on free and Open Source technologies and software and does not require any payment to be used, it is simply already yours.</p>
-            <p>All system components are released under Open Source licenses and the code is available for your review, contribution or forking.</p>
-            <div class="button-pattern" style="background-image: url('/assets/images/home-open-source-pattern.svg');">
-                <a href="https://github.com/vanilla-os" class="button button-large button-dimmed">Fork on <ion-icon name="logo-github"></ion-icon> GitHub</a>
-            </div>
-        </div>
-    </div>
-</div>
+## Planning
+The following planning is subject to change.
 
-<div class="hero hero-secondary">
-    <div class="container hero-wrapper">
-        <div class="hero-text">
-            <h2>Frequently Asked Questions</h2>
-            <p>Here are some of the most common questions we get asked.</p>
-            <div class="accordion">
-                {% capture title %} Why Ubuntu Based? {% endcapture %}
-                {% capture answer %}
-                    <p>Vanilla OS aims to be a stable and compatible distribution. Ubuntu is a distribution that respects both of these canons, being updated with strict control, without having to give up functionality and security.</p>
-                {% endcapture %}
-                {% include accordion-item.html open=true title=title text=answer %}
+### ABRoot
 
-                {% capture title %} Why not a rolling release? {% endcapture %}
-                {% capture answer %}
-                    <p>Vanilla OS aims to be a stable and compatible distribution. Ubuntu is a distribution that respects both of these canons, being updated with strict control, without having to give up functionality and security.</p>
-                    <p>Thanks to Flatpak, Snap and Appimage, the user can always have the latest version of the applications they use, without having to wait for the next release of Vanilla OS.</p>
-                {% endcapture %}
-                {% include accordion-item.html title=title text=answer %}
+| Feature | Status |
+| --- | --- | --- |
+| [ABRoot](https://github.com/vanilla-os/ABRoot) | Done |
+| A/B Compatibility Check | Done |
+| A/B Root Manager | Done |
+| OverlayFS support for transactions | Done |
+| Transaction features | Done |
+| Boot Updater | Done |
+| Debug flag | Done |
+| CLI | Done |
+| Man pages (`man abroot`) | Done |
 
-                {% capture title %} Why not OStree or [put_name_here]? {% endcapture %}
-                {% capture answer %}
-                    <p>Vanilla OS uses an A/B structure (<a href="https://documentation.vanillaos.org/docs/abroot/">ABRoot</a>), which transacts updates atomically between two root micro partitions. The benefits of this system are the guarantee that the system is altered only when the entire transaction is successful (concept of atomicity), furthermore, the double root partition structure allows you to roll back to the previous state, directly from your boot, you will always have a home to come back to.</p>
-                    <p>This structure, unlike others, is compatible with already existing distributions and does not require a complex setup and allows easy re-initialization of the system without data loss.</p>
-                {% endcapture %}
-                {% include accordion-item.html title=title text=answer %}
-            </div>
-            <a href="/faq" class="button button-secondary">
-                Learn More <span class="material-icons-outlined">chevron_right</span>
-            </a>
-        </div>
-    </div>
-</div>
+### VSO (Vanilla System Operator)
 
-<div class="hero hero-center">
-    <div class="hero-wrapper">
-        <div class="hero-text">
-            <h2>Technologies</h2>
-            <p>Vanilla OS is made possible by the following technologies.</p>
-            <div class="logo-carousel">
-                <div class="logo-carousel-item">
-                    <a href="https://www.ubuntu.com/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/ubuntu.svg" alt="Ubuntu" />
-                    </a>
-                </div>
-                <div class="logo-carousel-item">
-                    <a href="https://www.gnome.org/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/gnome.svg" alt="GNOME" />
-                    </a>
-                </div>
-                <div class="logo-carousel-item">
-                    <a href="https://distrobox.privatedns.org/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/distrobox.png" alt="Distrobox" />
-                    </a>
-                </div>
-                <div class="logo-carousel-item">
-                    <a href="https://github.com/Vanilla-OS/ABRoot/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/abroot.svg" alt="ABRoot" />
-                    </a>
-                </div>
-                <div class="logo-carousel-item">
-                    <a href="https://github.com/Vanilla-OS/apx/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/apx.png" alt="Apx" />
-                    </a>
-                </div>
-            </div>
-            <small>All trademarks are the property of their respective owners.</small>
-        </div>
-    </div>
-</div>
+| Feature | Status |
+| --- | --- | --- |
+| [VSO](https://github.com/vanilla-os/vanilla-system-operator) | Done |
+| Updates Scheduler | Done |
+| Updates Manager | Done |
+| Configuration Manager | Done |
+| Automation Tasks Manager | Done |
+| Developer Program | Planned for the future |
+| CLI | Done |
+| Man pages (`man vso`) | Done |
 
-<div class="hero hero-center">
-    <div class="hero-wrapper">
-        <div class="hero-text">
-            <div class="media-carousel">
-                <div class="media-carousel-item">
-                    <a href="https://www.zdnet.com/article/vanilla-os-offers-a-new-take-on-security-for-the-linux-desktop/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/media/zdnet.svg" alt="ZDNet" />
-                        <p>If you're looking for a new operating system that takes security seriously… Vanilla OS might be just the ticket.</p>
-                    </a>
-                </div>
-                <div class="media-carousel-item">
-                    <a href="https://www.theregister.com/2023/01/03/vanilla_os_2210/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/media/the_register.svg" alt="The Register" />
-                        <p>Vanilla OS is going for bigger, bolder improvement to the Linux desktop… it could prove transformative to the Linux industry… </p>
-                    </a>
-                </div>
-                <div class="media-carousel-item">
-                    <a href="https://www.techrepublic.com/article/vanilla-os-linux-desktop/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/media/techrepublic-logo.svg" alt="ABRoot" />
-                        <p>This will be a project you’ll want to keep a close watch on… I think Vanilla OS could be a real game-changer.</p>
-                    </a>
-                </div>
-                <div class="media-carousel-new-line"></div>
-                <div class="media-carousel-item">
-                    <a href="https://www.omglinux.com/vanilla-os-first-release-download/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/media/omg-linux.png" alt="OMG! Linux" />
-                        <p>Far more than “just another” Ubuntu fork, this distro takes a bold new approach to desktop computing using an immutable file system.</p>
-                    </a>
-                </div>
-                <div class="media-carousel-item">
-                    <a href="https://news.itsfoss.com/vanilla-os-release/" target="_blank" rel="noopener">
-                        <img src="/assets/images/logos/media/itsfoss-logo.webp" alt="It's FOSS" />
-                        <p>Being a new distro, Vanilla OS has a well-equipped feature set that you might like.</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+### ~~Almost~~ (Replaced by ABRoot)
+
+| Feature | Status |
+| --- | --- | --- |
+| [Almost](https://github.com/vanilla-os/Almost) | Discontinued |
+| Configurator | Done |
+| Systemd Persistent Mode | Done |
+| Offline Updates Support | Done |
+| Persistent Overlays Support | Done |
+| Atomic Updates Support | Done |
+
+### Apx
+
+| Feature | Status |
+| --- | --- | --- |
+| [Apx](https://github.com/vanilla-os/apx) | Done |
+| ~~`--sys` flag~~ (replaced by `abroot exec` and `abroot shell`) | Done |
+| Core Container features | Done |
+| `--aur` flag | Done |
+| `--dnf` flag | Done |
+| `--apk` flag | Done |
+| `--name` flag for Custom containers| Done |
+| Man pages (`man apx`) | Done |
+
+### First Setup
+
+| Feature | Status |
+| --- | --- | --- |
+| [First Setup](https://github.com/vanilla-os/first-setup) | Done |
+| Support for custom recipes | Done |
+| Default templates | Done |
+| Tour | Done |
+| ABRoot Support | Done |
+| Vanilla OS Recipe | Done |
+| OpenVM Support | Done |
+| Ubuntu Restricted Extras Support | Done |
+| Nvidia Drivers Support | Done |
+
+### Installer
+
+| Feature | Status |
+| --- | --- | --- |
+| [Installer](https://github.com/vanilla-os/vanilla-installer) | Done |
+| Automatic partitioning | Done |
+| Manual partitioning | Planned for the future |
+| Keyboard layout Selection | Done |
+| Timezone Selection | Done |
+| Language Selection | Done |
+| User creation | Done |
+| Processor | Done |
+| `distinst` Support | Done |
+| Vanilla OS Recipe | Done |
+
+### Control Center
+
+| Feature | Status |
+| --- | --- | --- |
+| [Vanilla Control Center](https://github.com/vanilla-os/vanilla-control-center) | Done |
+| Drivers management | Done |
+| Updates management | Done |
+| Sub System management | Done |
+| ~~Overlays support~~ | Replaced by ABRoot |
+
+### GNOME Packages Updates (43)
+
+| Feature | Status |
+| --- | --- | --- |
+| [gnome-control-center](https://github.com/Vanilla-OS/gnome-control-center) | Done |
+| [gnome-software](https://github.com/Vanilla-OS/gnome-software) | Done |
+| [adwaita-icon-theme](https://github.com/Vanilla-OS/adwaita-icon-theme) | Done |
+
+### Misc and other packages
+
+| Feature | Status |
+| --- | --- | --- |
+| [~~almost-extras~~](https://github.com/Vanilla-OS/almost-extras) | Replaced by ABRoot |
+| [base-files](https://github.com/Vanilla-OS/base-files) | Done |
+| [vanilla-base-meta](https://github.com/Vanilla-OS/vanilla-base-meta) | Done |
+| [vanilla-base-desktop](https://github.com/Vanilla-OS/vanilla-base-desktop) | Done |
+| [~~vanilla-beta-notice~~](https://github.com/Vanilla-OS/vanilla-beta-notice) | Replaced by vanilla-dev-notice |
+| [vanilla-dev-notice](https://github.com/Vanilla-OS/vanilla-dev-notice) | Done |
+| [vanilla-backgrounds](https://github.com/Vanilla-OS/vanilla-backgrounds) | Done |
+| [vanilla-systemd-units](https://github.com/Vanilla-OS/vanilla-systemd-units) | Done |
+| [plymouth-theme-vanilla](https://github.com/Vanilla-OS/plymouth-theme-vanilla) | Done |
+| [~~calamares-settings-vanilla~~](https://github.com/Vanilla-OS/calamares-settings-vanilla) | Replaced by Vanilla Installer |
+| [micro-distrobox](https://github.com/Vanilla-OS/micro-distrobox) | Done |
+| [dev-help-tools](https://github.com/Vanilla-OS/dev-help-tools) | Done |
+| [Upgrade Utility](https://github.com/Vanilla-OS/vanilla-updater) | Done |
+| [~~vanilla-os-build~~](https://github.com/Vanilla-OS/vanilla-os-build) | Replaced by ISO Builder |
+| [ISO Builder](https://github.com/Vanilla-OS/os) | Done |
+| [Branding](https://github.com/Vanilla-OS/assets) | Done |
+| [Website](https://github.com/Vanilla-OS/website) | Done |
+| [Documentation](https://github.com/Vanilla-OS/documentation) | Done |
+| [Handbook](https://github.com/Vanilla-OS/handbook) | Done |
+| [AdwDialog](https://github.com/Vanilla-OS/AdwDialog) | Done |
+| [`distinst`](https://github.com/Vanilla-OS/distinst) minor changes | Done |
+
+
+<script type="text/javascript" src="/assets/js/tableStatus.js"></script>
