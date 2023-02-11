@@ -1,6 +1,6 @@
-title: Vanilla OS
-author: Vanilla OS Contributors
-email: send@mirko.pm
+title: Gezel Roadmap
+author: Gezel.io
+email: admin@gezel.io
 
 assets: /assets
 uploads: /uploads
@@ -11,7 +11,7 @@ defaults:
     values:
       layout: "default"
 
-url: "https://vanillaos.org"
+url: "https://roadmap.gezel.io"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
